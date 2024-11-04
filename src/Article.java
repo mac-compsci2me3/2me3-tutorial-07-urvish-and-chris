@@ -20,4 +20,8 @@ public class Article extends ArticleComponent {
         }
     }
 
+    public ArticleIterator iterator() {
+        return new ArticleIterator(components);
+    }
+
 }
